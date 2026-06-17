@@ -4,9 +4,6 @@
     'category': 'Accounting/Localizations',
     'author': 'SUMITIC',
     'depends': ['account', 'base']
-    'data': [
-        'data/account_chart_template.xml',
-    ],
     'installable': True,
     'application': True,
 }
