@@ -4,11 +4,11 @@
     'category': 'Accounting/Localizations',
     'summary': 'Configuraciones base para la contabilidad en Venezuela',
     'author': 'SUMITIC',
-    'depends': ['account'],
+    'depends': ['account'],  # <--- AQUÍ ESTÁ LA CLAVE PARA QUE INSTALE CONTABILIDAD
     'data': [
         'data/account_chart_template.xml',
     ],
     'installable': True,
-    'application': False,
+    'application': True, # Cambiado a True para que aparezca en el menú de Apps
     'license': 'LGPL-3',
 }
