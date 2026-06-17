@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <record id="l10n_ve_chart_template" model="account.chart.template">
-        <field name="name">Plan Contable Venezolano</field>
-        <field name="currency_id" ref="base.VEF"/>
-        <field name="code_digits">6</field>
-    </record>
-</odoo>
