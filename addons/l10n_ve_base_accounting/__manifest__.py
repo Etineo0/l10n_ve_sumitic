@@ -3,7 +3,7 @@
     'version': '19.0.1.0.0',
     'category': 'Accounting/Localizations',
     'author': 'SUMITIC',
-    'depends': ['account'],
+    'depends': ['account', 'base']
     'data': [
         'data/account_chart_template.xml',
     ],
